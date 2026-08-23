@@ -21,14 +21,14 @@
 2. 이 폴더의 파일들을 모두 업로드
 3. 저장소 **Settings → Pages** 이동
 4. Source를 `Deploy from a branch` → Branch를 `main` / `/ (root)` 선택 → Save
-5. 몇 분 후 `https://YOUR_USERNAME.github.io/2026-summer-retreat/` 로 접속 가능
+5. 몇 분 후 `https://dogseller55.github.io/2026-summer-retreat/` 로 접속 가능
 
 ## 카톡 미리보기(썸네일) 설정
 
 1. `thumbnail.jpg` (또는 `.png`) 파일을 이 폴더에 넣기  
    - 권장 크기: **1200 × 630 px**
 2. 모든 HTML 파일 안의  
-   `https://YOUR_USERNAME.github.io/YOUR_REPO/thumbnail.jpg`  
+   `https://dogseller55.github.io/2026-summer-retreat/thumbnail.jpg`  
    부분을 실제 주소로 바꾸기  
    (예: `https://yourname.github.io/2026-summer-retreat/thumbnail.jpg`)
 
