@@ -64,11 +64,26 @@ figcaption{font-family:var(--sans);font-size:.76rem;color:var(--mute);margin-top
 .rv.in{opacity:1;transform:none}
 @media (max-width:640px){body{font-size:17px;line-height:1.98}main{padding:0 1.35rem 4rem}blockquote{padding-left:1.1rem;font-size:.98rem}.preface{padding:1.9rem 1.3rem}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+.tocnav{
+  display:flex; align-items:center; justify-content:center; gap:.4em;
+  font-family:"Pretendard Variable",Pretendard,-apple-system,system-ui,sans-serif;
+  font-size:.76rem; font-weight:600; letter-spacing:.05em;
+  color:var(--mute); text-decoration:none;
+  padding:.85rem 1rem; background:var(--paper-deep);
+  border-bottom:1px solid var(--rule);
+  transition:color .15s ease, background .15s ease;
+}
+.tocnav:hover{ color:var(--pine); background:var(--rule); }
+.tocnav .arrow{ font-size:.85em; }
+.tocnav.bottom{ border-bottom:none; border-top:1px solid var(--rule); margin-top:1rem; }
 </style>
 </head>
 <body>
 
 <div id="progress"></div>
+
+<a class="tocnav top" href="index.html"><span class="arrow">←</span> 차례로 돌아가기</a>
 
 <header class="hero">
   <p class="eyebrow">2026 예은교회 하계수련회 기록집</p>
@@ -443,6 +458,8 @@ figcaption{font-family:var(--sans);font-size:.76rem;color:var(--mute);margin-top
   </section>
 
 </main>
+<a class="tocnav bottom" href="index.html">차례로 돌아가기 <span class="arrow">→</span></a>
+
 
 <script>
 (function(){

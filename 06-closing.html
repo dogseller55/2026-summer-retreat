@@ -40,9 +40,24 @@ blockquote p:last-child{margin-bottom:0}
 .thanks{font-size:1rem;line-height:2.1}
 .rv{opacity:1}
 @media (max-width:640px){body{font-size:17px}main{padding:0 1.35rem 4rem}}
+
+.tocnav{
+  display:flex; align-items:center; justify-content:center; gap:.4em;
+  font-family:"Pretendard Variable",Pretendard,-apple-system,system-ui,sans-serif;
+  font-size:.76rem; font-weight:600; letter-spacing:.05em;
+  color:var(--mute); text-decoration:none;
+  padding:.85rem 1rem; background:var(--paper-deep);
+  border-bottom:1px solid var(--rule);
+  transition:color .15s ease, background .15s ease;
+}
+.tocnav:hover{ color:var(--pine); background:var(--rule); }
+.tocnav .arrow{ font-size:.85em; }
+.tocnav.bottom{ border-bottom:none; border-top:1px solid var(--rule); margin-top:1rem; }
 </style>
 </head>
 <body>
+
+<a class="tocnav top" href="index.html"><span class="arrow">←</span> 차례로 돌아가기</a>
 
 <header class="hero">
   <p class="eyebrow">2026 예은교회 하계수련회 기록집</p>
@@ -94,5 +109,7 @@ blockquote p:last-child{margin-bottom:0}
   </section>
 
 </main>
+<a class="tocnav bottom" href="index.html">차례로 돌아가기 <span class="arrow">→</span></a>
+
 </body>
 </html>
